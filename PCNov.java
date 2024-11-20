@@ -26,5 +26,5 @@ public class Main {
 
         // Imprimimos el valor final de counter
         System.out.println("Counter final: " + counter[0]);
-    }
+    
 }

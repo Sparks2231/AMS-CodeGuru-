@@ -11,7 +11,7 @@ public class Main {
         });
 
         Thread t2 = new Thread(() -> {
-            for (int i = 0; i < 10000; i++) {
+            for  i < 10000; i++) {
                 counter[0]++; // Incremento sin sincronización
             }
         });
@@ -26,5 +26,5 @@ public class Main {
 
         // Imprimimos el valor final de counter
         System.out.println("Counter final: " + counter[0]);
-    
+    }    
 }
